@@ -5,6 +5,7 @@ Verilen pozitif bir tamsayının basamak değerlerinin kareleri toplandığında
 
    Ya 1 sayısına ulaşıp ürettiğiniz sonraki sayılar da hep 1 olacak
    Ya da 4, 16, 37, 58, 89, 145, 42, 20, 4, 16, 37, 58, 89, ... gibi bir döngü ile karşılaşacaksınız
+  
 Örneğin 45 sayısı ile başlarsak:
 42+52=41
 42+12=17
