@@ -4,15 +4,16 @@
 
 void main()
 {
-	int sayi, kalan, kalan_kare, yeni_sayi = 0; //degýsken tanýmlamalarý.
+	int sayi, kalan, kalan_kare, yeni_sayi = 0; //degÄ±sken tanÄ±mlamalarÄ±.
 
 	printf("Lutfen bir sayi giriniz.");
-	scanf_s("%d", &sayi); // kullanýcýdan alýnan sayýnýn degýskene atanmasý.
+	scanf_s("%d", &sayi); // kullanÄ±cÄ±dan alÄ±nan sayÄ±nÄ±n degÄ±skene atanmasÄ±.
 	printf("\n%d ,", sayi);
 
-	//sayiyi kullanýcýdan aldým ve döngü burada baslýyor.
-	while (sayi != 1 && sayi != 89 && sayi != 4 && sayi != 16 && sayi != 37 && sayi != 58 && sayi != 145 && sayi != 42 && sayi != 20){
-		//sayýyý basamaklarýna ayýrma iþlemi
+	//sayiyi kullanÄ±cÄ±dan aldÄ±m ve dÃ¶ngÃ¼ burada baslÄ±yor.
+	while (sayi != 1 && sayi != 89 && sayi != 4 && sayi != 16 && sayi != 37 && sayi != 58 && sayi != 145 && sayi != 42 && sayi != 20)
+	{
+		//sayÄ±yÄ± basamaklarÄ±na ayÄ±rma iÅŸlemi
 		while (sayi > 0)
 		{
 			kalan = sayi % 10;
